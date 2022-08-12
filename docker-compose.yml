@@ -45,8 +45,8 @@ services:
     depends_on:
       - geth
     ports:
-      - 9000:9000/tcp
-      - 9000:9000/udp
+      - 9001:9001/tcp
+      - 9001:9001/udp
       - 5052:5052
     command: |
       lighthouse bn
